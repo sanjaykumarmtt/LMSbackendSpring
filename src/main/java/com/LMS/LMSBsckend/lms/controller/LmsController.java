@@ -46,6 +46,10 @@ public class LmsController {
 	}
 	@GetMapping("/user/get")
 	public String user() {
-		return "User Login LMS Spring";	
+		return "User1 Login LMS Spring";	
+	}
+	@GetMapping("/user2/get")
+	public String user1() {
+		return "User2 Login LMS Spring";	
 	}
 }
