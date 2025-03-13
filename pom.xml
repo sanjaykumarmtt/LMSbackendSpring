@@ -103,6 +103,13 @@
 			<artifactId>EmailOtp</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<!--https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-tomcat -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<version>3.4.1</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>

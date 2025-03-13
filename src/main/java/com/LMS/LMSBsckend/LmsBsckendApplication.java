@@ -13,3 +13,4 @@ public class LmsBsckendApplication {
 		String Admib="1111";
 	}
 }
+//select course_provider,course_name,description,deuration,price,imgname,what_you_learn1,what_you_learn2,what_you_learn3,what_you_learn4 from course_det;
