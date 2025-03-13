@@ -9,7 +9,7 @@ import com.LMS.LMSBsckend.Exception.HostelException;
 
 import jakarta.servlet.ServletException;
 
-//@ControllerAdvice
+@ControllerAdvice
 public class GolableException {
 	
 	@ExceptionHandler(HostelException.class)

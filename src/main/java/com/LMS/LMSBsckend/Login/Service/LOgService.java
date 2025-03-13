@@ -95,5 +95,4 @@ public class LOgService implements UserDetailsService {
 	        message.setText("Your OTP code is: " + otp);
 	        mailSender.send(message);
 	    }
-
 }

@@ -97,8 +97,12 @@
 			<version>0.12.6</version>
 			<scope>runtime</scope>
 		</dependency>
-
-
+  
+		<dependency>
+			<groupId>com.EmailOTP</groupId>
+			<artifactId>EmailOtp</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -109,5 +113,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

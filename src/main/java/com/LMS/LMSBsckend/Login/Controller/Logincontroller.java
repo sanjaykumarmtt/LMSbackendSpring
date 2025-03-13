@@ -31,7 +31,7 @@ public class Logincontroller {
 
 	@PostMapping("/send_Otp")
 	public ResponseEntity<String> sendOTP(@RequestParam String email, String purpose) {
-//		 System.out.println(email +"sedrtfg");
+//		 System.out.println(email +" sedrtfg " +purpose);
 		LOgService.sendOTP(email, purpose);
 		return ResponseEntity.ok("OTP sent successfully");
 	}
