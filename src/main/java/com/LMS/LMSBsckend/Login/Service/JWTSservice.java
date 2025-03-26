@@ -36,12 +36,12 @@ public class JWTSservice {
 
 	public String getTocken(String username, Collection<? extends GrantedAuthority> authorities) {
 		return Jwts.builder()
-//				.claims()  86400000
+//				.claims()  86400000   60*60*30
 //				.add(claims)
 				.subject(username)
 				.claim("role", authorities)
 				.issuedAt(new Date(System.currentTimeMillis()))
-				.expiration(new Date(System.currentTimeMillis()+60*60*30))
+				.expiration(new Date(System.currentTimeMillis()+86400000))
 //				.and()
 				.signWith(getkey())
 				.compact();
